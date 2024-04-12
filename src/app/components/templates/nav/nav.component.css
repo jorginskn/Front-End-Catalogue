@@ -1,0 +1,15 @@
+.sidenav {
+  background-color: #3F51B5;
+  width: 200px;
+}
+
+.mat-nav-list a {
+  color: #FFF !important;
+}
+
+.sidenav i {
+  color: #FFF;
+  padding-right: 10px;
+}
+
+
