@@ -8,7 +8,10 @@ import { HeaderComponent } from './components/templates/header/header.component'
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { NavComponent } from './components/templates/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav'
-import {MatListModule} from '@angular/material/list'
+import {MatCardModule} from '@angular/material/card'
+
+import {MatListModule} from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component'
 
 
 @NgModule({
@@ -16,14 +19,16 @@ import {MatListModule} from '@angular/material/list'
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [
     provideClientHydration(),
