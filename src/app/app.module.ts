@@ -9,6 +9,7 @@ import { FooterComponent } from './components/templates/footer/footer.component'
 import { NavComponent } from './components/templates/nav/nav.component';
 import {MatSidenavModule} from '@angular/material/sidenav'
 import {MatCardModule} from '@angular/material/card'
+import {MatButtonModule} from '@angular/material/button'
 
 import {MatListModule} from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
@@ -36,7 +37,9 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
+
   ],
   providers: [
     provideClientHydration(),

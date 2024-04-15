@@ -7,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCreateComponent implements OnInit {
   constructor() {}
+
   ngOnInit(): void {}
 
-  fazeralgo():void{
-    console.log('fazendo algo')
-  }
+
 }
